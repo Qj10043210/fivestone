@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FiveStones</title>
+    <style>
+        #tb_back {
+            width: 540px;
+            height: 540px;
+            margin: 200px;
+            display: table;
+            border-collapse: collapse;
+        }
+
+        .back_line {
+            display: table-row;
+            border-collapse: collapse;
+        }
+
+        .back_block {
+            display: table-cell;
+            width: 30px;
+            height: 30px;
+            border: 1px solid black;
+
+        }
+
+        #tb_front {
+            width: 600px;
+            height: 600px;
+            position: absolute;
+            top: 190px;
+            left: 200px;
+        }
+
+        .front_line {
+            display: flex;
+        }
+
+        .front_block {
+            width: 20px;
+            height: 20px;
+            margin-right: 9.9px;
+            margin-bottom: 10.5px;
+            border-radius: 50%;
+        }
+
+        .black {
+            background-color: rgb(0, 0, 0);
+            box-shadow: 2px 2px 2px 1px rgb(66, 66, 66);
+        }
+
+        .white {
+            background-color: rgb(255, 255, 255);
+            box-shadow: 2px 2px 2px 1px rgb(66, 66, 66);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="tb_back">
+        <div class="back_line">
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+        </div>
+        <div class="back_line">
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+        </div>
+        <div class="back_line">
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+        </div>
+        <div class="back_line">
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+        </div>
+        <div class="back_line">
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+        </div>
+        <div class="back_line">
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+        </div>
+        <div class="back_line">
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+        </div>
+        <div class="back_line">
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+        </div>
+        <div class="back_line">
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+        </div>
+        <div class="back_line">
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+        </div>
+        <div class="back_line">
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+        </div>
+        <div class="back_line">
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+        </div>
+        <div class="back_line">
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+        </div>
+        <div class="back_line">
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+        </div>
+        <div class="back_line">
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+        </div>
+        <div class="back_line">
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+        </div>
+        <div class="back_line">
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+        </div>
+        <div class="back_line">
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+            <div class="back_block"></div>
+        </div>
+    </div>
+    <div id="tb_front">
+        <div class="front_line" id="l_1">
+            <div id="l_1_1" class="front_block black"></div>
+            <div id="l_1_2" class="front_block black"></div>
+            <div id="l_1_3" class="front_block black"></div>
+            <div id="l_1_4" class="front_block black"></div>
+            <div id="l_1_5" class="front_block white"></div>
+            <div id="l_1_6" class="front_block"></div>
+            <div id="l_1_7" class="front_block"></div>
+            <div id="l_1_8" class="front_block"></div>
+            <div id="l_1_9" class="front_block"></div>
+            <div id="l_1_10" class="front_block"></div>
+            <div id="l_1_11" class="front_block"></div>
+            <div id="l_1_12" class="front_block"></div>
+            <div id="l_1_13" class="front_block"></div>
+            <div id="l_1_14" class="front_block"></div>
+            <div id="l_1_15" class="front_block"></div>
+            <div id="l_1_16" class="front_block"></div>
+            <div id="l_1_17" class="front_block"></div>
+            <div id="l_1_18" class="front_block"></div>
+            <div id="l_1_19" class="front_block"></div>
+        </div>
+        <div class="front_line" id="l_2">
+            <div id="l_2_1" class="front_block"></div>
+            <div id="l_2_2" class="front_block"></div>
+            <div id="l_2_3" class="front_block"></div>
+            <div id="l_2_4" class="front_block"></div>
+            <div id="l_2_5" class="front_block"></div>
+            <div id="l_2_6" class="front_block"></div>
+            <div id="l_2_7" class="front_block"></div>
+            <div id="l_2_8" class="front_block"></div>
+            <div id="l_2_9" class="front_block"></div>
+            <div id="l_2_10" class="front_block"></div>
+            <div id="l_2_11" class="front_block"></div>
+            <div id="l_2_12" class="front_block"></div>
+            <div id="l_2_13" class="front_block"></div>
+            <div id="l_2_14" class="front_block"></div>
+            <div id="l_2_15" class="front_block"></div>
+            <div id="l_2_16" class="front_block"></div>
+            <div id="l_2_17" class="front_block"></div>
+            <div id="l_2_18" class="front_block"></div>
+            <div id="l_2_19" class="front_block"></div>
+        </div>
+        <div class="front_line" id="l_3">
+            <div id="l_3_1" class="front_block"></div>
+            <div id="l_3_2" class="front_block"></div>
+            <div id="l_3_3" class="front_block"></div>
+            <div id="l_3_4" class="front_block"></div>
+            <div id="l_3_5" class="front_block"></div>
+            <div id="l_3_6" class="front_block"></div>
+            <div id="l_3_7" class="front_block"></div>
+            <div id="l_3_8" class="front_block"></div>
+            <div id="l_3_9" class="front_block"></div>
+            <div id="l_3_10" class="front_block"></div>
+            <div id="l_3_11" class="front_block"></div>
+            <div id="l_3_12" class="front_block"></div>
+            <div id="l_3_13" class="front_block"></div>
+            <div id="l_3_14" class="front_block"></div>
+            <div id="l_3_15" class="front_block"></div>
+            <div id="l_3_16" class="front_block"></div>
+            <div id="l_3_17" class="front_block"></div>
+            <div id="l_3_18" class="front_block"></div>
+            <div id="l_3_19" class="front_block"></div>
+        </div>
+        <div class="front_line" id="l_4">
+            <div id="l_4_1" class="front_block"></div>
+            <div id="l_4_2" class="front_block"></div>
+            <div id="l_4_3" class="front_block"></div>
+            <div id="l_4_4" class="front_block"></div>
+            <div id="l_4_5" class="front_block"></div>
+            <div id="l_4_6" class="front_block"></div>
+            <div id="l_4_7" class="front_block"></div>
+            <div id="l_4_8" class="front_block"></div>
+            <div id="l_4_9" class="front_block"></div>
+            <div id="l_4_10" class="front_block"></div>
+            <div id="l_4_11" class="front_block"></div>
+            <div id="l_4_12" class="front_block"></div>
+            <div id="l_4_13" class="front_block"></div>
+            <div id="l_4_14" class="front_block"></div>
+            <div id="l_4_15" class="front_block"></div>
+            <div id="l_4_16" class="front_block"></div>
+            <div id="l_4_17" class="front_block"></div>
+            <div id="l_4_18" class="front_block"></div>
+            <div id="l_4_19" class="front_block"></div>
+        </div>
+        <div class="front_line" id="l_5">
+            <div id="l_5_1" class="front_block"></div>
+            <div id="l_5_2" class="front_block"></div>
+            <div id="l_5_3" class="front_block"></div>
+            <div id="l_5_4" class="front_block"></div>
+            <div id="l_5_5" class="front_block"></div>
+            <div id="l_5_6" class="front_block"></div>
+            <div id="l_5_7" class="front_block"></div>
+            <div id="l_5_8" class="front_block"></div>
+            <div id="l_5_9" class="front_block"></div>
+            <div id="l_5_10" class="front_block"></div>
+            <div id="l_5_11" class="front_block"></div>
+            <div id="l_5_12" class="front_block"></div>
+            <div id="l_5_13" class="front_block"></div>
+            <div id="l_5_14" class="front_block"></div>
+            <div id="l_5_15" class="front_block"></div>
+            <div id="l_5_16" class="front_block"></div>
+            <div id="l_5_17" class="front_block"></div>
+            <div id="l_5_18" class="front_block"></div>
+            <div id="l_5_19" class="front_block"></div>
+        </div>
+        <div class="front_line" id="l_6">
+            <div id="l_6_1" class="front_block"></div>
+            <div id="l_6_2" class="front_block"></div>
+            <div id="l_6_3" class="front_block"></div>
+            <div id="l_6_4" class="front_block"></div>
+            <div id="l_6_5" class="front_block"></div>
+            <div id="l_6_6" class="front_block"></div>
+            <div id="l_6_7" class="front_block"></div>
+            <div id="l_6_8" class="front_block"></div>
+            <div id="l_6_9" class="front_block"></div>
+            <div id="l_6_10" class="front_block"></div>
+            <div id="l_6_11" class="front_block"></div>
+            <div id="l_6_12" class="front_block"></div>
+            <div id="l_6_13" class="front_block"></div>
+            <div id="l_6_14" class="front_block"></div>
+            <div id="l_6_15" class="front_block"></div>
+            <div id="l_6_16" class="front_block"></div>
+            <div id="l_6_17" class="front_block"></div>
+            <div id="l_6_18" class="front_block"></div>
+            <div id="l_6_19" class="front_block"></div>
+        </div>
+        <div class="front_line" id="l_7">
+            <div id="l_7_1" class="front_block"></div>
+            <div id="l_7_2" class="front_block"></div>
+            <div id="l_7_3" class="front_block"></div>
+            <div id="l_7_4" class="front_block"></div>
+            <div id="l_7_5" class="front_block"></div>
+            <div id="l_7_6" class="front_block"></div>
+            <div id="l_7_7" class="front_block"></div>
+            <div id="l_7_8" class="front_block"></div>
+            <div id="l_7_9" class="front_block"></div>
+            <div id="l_7_10" class="front_block"></div>
+            <div id="l_7_11" class="front_block"></div>
+            <div id="l_7_12" class="front_block"></div>
+            <div id="l_7_13" class="front_block"></div>
+            <div id="l_7_14" class="front_block"></div>
+            <div id="l_7_15" class="front_block"></div>
+            <div id="l_7_16" class="front_block"></div>
+            <div id="l_7_17" class="front_block"></div>
+            <div id="l_7_18" class="front_block"></div>
+            <div id="l_7_19" class="front_block"></div>
+        </div>
+        <div class="front_line" id="l_8">
+            <div id="l_8_1" class="front_block"></div>
+            <div id="l_8_2" class="front_block"></div>
+            <div id="l_8_3" class="front_block"></div>
+            <div id="l_8_4" class="front_block"></div>
+            <div id="l_8_5" class="front_block"></div>
+            <div id="l_8_6" class="front_block"></div>
+            <div id="l_8_7" class="front_block"></div>
+            <div id="l_8_8" class="front_block"></div>
+            <div id="l_8_9" class="front_block"></div>
+            <div id="l_8_10" class="front_block"></div>
+            <div id="l_8_11" class="front_block"></div>
+            <div id="l_8_12" class="front_block"></div>
+            <div id="l_8_13" class="front_block"></div>
+            <div id="l_8_14" class="front_block"></div>
+            <div id="l_8_15" class="front_block"></div>
+            <div id="l_8_16" class="front_block"></div>
+            <div id="l_8_17" class="front_block"></div>
+            <div id="l_8_18" class="front_block"></div>
+            <div id="l_8_19" class="front_block"></div>
+        </div>
+        <div class="front_line" id="l_9">
+            <div id="l_9_1" class="front_block"></div>
+            <div id="l_9_2" class="front_block"></div>
+            <div id="l_9_3" class="front_block"></div>
+            <div id="l_9_4" class="front_block"></div>
+            <div id="l_9_5" class="front_block"></div>
+            <div id="l_9_6" class="front_block"></div>
+            <div id="l_9_7" class="front_block"></div>
+            <div id="l_9_8" class="front_block"></div>
+            <div id="l_9_9" class="front_block"></div>
+            <div id="l_9_10" class="front_block"></div>
+            <div id="l_9_11" class="front_block"></div>
+            <div id="l_9_12" class="front_block"></div>
+            <div id="l_9_13" class="front_block"></div>
+            <div id="l_9_14" class="front_block"></div>
+            <div id="l_9_15" class="front_block"></div>
+            <div id="l_9_16" class="front_block"></div>
+            <div id="l_9_17" class="front_block"></div>
+            <div id="l_9_18" class="front_block"></div>
+            <div id="l_9_19" class="front_block"></div>
+        </div>
+        <div class="front_line" id="l_10">
+            <div id="l_10_1" class="front_block"></div>
+            <div id="l_10_2" class="front_block"></div>
+            <div id="l_10_3" class="front_block"></div>
+            <div id="l_10_4" class="front_block"></div>
+            <div id="l_10_5" class="front_block"></div>
+            <div id="l_10_6" class="front_block"></div>
+            <div id="l_10_7" class="front_block"></div>
+            <div id="l_10_8" class="front_block"></div>
+            <div id="l_10_9" class="front_block"></div>
+            <div id="l_10_10" class="front_block"></div>
+            <div id="l_10_11" class="front_block"></div>
+            <div id="l_10_12" class="front_block"></div>
+            <div id="l_10_13" class="front_block"></div>
+            <div id="l_10_14" class="front_block"></div>
+            <div id="l_10_15" class="front_block"></div>
+            <div id="l_10_16" class="front_block"></div>
+            <div id="l_10_17" class="front_block"></div>
+            <div id="l_10_18" class="front_block"></div>
+            <div id="l_10_19" class="front_block"></div>
+        </div>
+        <div class="front_line" id="l_11">
+            <div id="l_11_1" class="front_block"></div>
+            <div id="l_11_2" class="front_block"></div>
+            <div id="l_11_3" class="front_block"></div>
+            <div id="l_11_4" class="front_block"></div>
+            <div id="l_11_5" class="front_block"></div>
+            <div id="l_11_6" class="front_block"></div>
+            <div id="l_11_7" class="front_block"></div>
+            <div id="l_11_8" class="front_block"></div>
+            <div id="l_11_9" class="front_block"></div>
+            <div id="l_11_10" class="front_block"></div>
+            <div id="l_11_11" class="front_block"></div>
+            <div id="l_11_12" class="front_block"></div>
+            <div id="l_11_13" class="front_block"></div>
+            <div id="l_11_14" class="front_block"></div>
+            <div id="l_11_15" class="front_block"></div>
+            <div id="l_11_16" class="front_block"></div>
+            <div id="l_11_17" class="front_block"></div>
+            <div id="l_11_18" class="front_block"></div>
+            <div id="l_11_19" class="front_block"></div>
+        </div>
+        <div class="front_line" id="l_12">
+            <div id="l_12_1" class="front_block"></div>
+            <div id="l_12_2" class="front_block"></div>
+            <div id="l_12_3" class="front_block"></div>
+            <div id="l_12_4" class="front_block"></div>
+            <div id="l_12_5" class="front_block"></div>
+            <div id="l_12_6" class="front_block"></div>
+            <div id="l_12_7" class="front_block"></div>
+            <div id="l_12_8" class="front_block"></div>
+            <div id="l_12_9" class="front_block"></div>
+            <div id="l_12_10" class="front_block"></div>
+            <div id="l_12_11" class="front_block"></div>
+            <div id="l_12_12" class="front_block"></div>
+            <div id="l_12_13" class="front_block"></div>
+            <div id="l_12_14" class="front_block"></div>
+            <div id="l_12_15" class="front_block"></div>
+            <div id="l_12_16" class="front_block"></div>
+            <div id="l_12_17" class="front_block"></div>
+            <div id="l_12_18" class="front_block"></div>
+            <div id="l_12_19" class="front_block"></div>
+        </div>
+        <div class="front_line" id="l_13">
+            <div id="l_13_1" class="front_block"></div>
+            <div id="l_13_2" class="front_block"></div>
+            <div id="l_13_3" class="front_block"></div>
+            <div id="l_13_4" class="front_block"></div>
+            <div id="l_13_5" class="front_block"></div>
+            <div id="l_13_6" class="front_block"></div>
+            <div id="l_13_7" class="front_block"></div>
+            <div id="l_13_8" class="front_block"></div>
+            <div id="l_13_9" class="front_block"></div>
+            <div id="l_13_10" class="front_block"></div>
+            <div id="l_13_11" class="front_block"></div>
+            <div id="l_13_12" class="front_block"></div>
+            <div id="l_13_13" class="front_block"></div>
+            <div id="l_13_14" class="front_block"></div>
+            <div id="l_13_15" class="front_block"></div>
+            <div id="l_13_16" class="front_block"></div>
+            <div id="l_13_17" class="front_block"></div>
+            <div id="l_13_18" class="front_block"></div>
+            <div id="l_13_19" class="front_block"></div>
+        </div>
+        <div class="front_line" id="l_14">
+            <div id="l_14_1" class="front_block"></div>
+            <div id="l_14_2" class="front_block"></div>
+            <div id="l_14_3" class="front_block"></div>
+            <div id="l_14_4" class="front_block"></div>
+            <div id="l_14_5" class="front_block"></div>
+            <div id="l_14_6" class="front_block"></div>
+            <div id="l_14_7" class="front_block"></div>
+            <div id="l_14_8" class="front_block"></div>
+            <div id="l_14_9" class="front_block"></div>
+            <div id="l_14_10" class="front_block"></div>
+            <div id="l_14_11" class="front_block"></div>
+            <div id="l_14_12" class="front_block"></div>
+            <div id="l_14_13" class="front_block"></div>
+            <div id="l_14_14" class="front_block"></div>
+            <div id="l_14_15" class="front_block"></div>
+            <div id="l_14_16" class="front_block"></div>
+            <div id="l_14_17" class="front_block"></div>
+            <div id="l_14_18" class="front_block"></div>
+            <div id="l_14_19" class="front_block"></div>
+        </div>
+        <div class="front_line" id="l_15">
+            <div id="l_15_1" class="front_block"></div>
+            <div id="l_15_2" class="front_block"></div>
+            <div id="l_15_3" class="front_block"></div>
+            <div id="l_15_4" class="front_block"></div>
+            <div id="l_15_5" class="front_block"></div>
+            <div id="l_15_6" class="front_block"></div>
+            <div id="l_15_7" class="front_block"></div>
+            <div id="l_15_8" class="front_block"></div>
+            <div id="l_15_9" class="front_block"></div>
+            <div id="l_15_10" class="front_block"></div>
+            <div id="l_15_11" class="front_block"></div>
+            <div id="l_15_12" class="front_block"></div>
+            <div id="l_15_13" class="front_block"></div>
+            <div id="l_15_14" class="front_block"></div>
+            <div id="l_15_15" class="front_block"></div>
+            <div id="l_15_16" class="front_block"></div>
+            <div id="l_15_17" class="front_block"></div>
+            <div id="l_15_18" class="front_block"></div>
+            <div id="l_15_19" class="front_block"></div>
+        </div>
+        <div class="front_line" id="l_16">
+            <div id="l_16_1" class="front_block"></div>
+            <div id="l_16_2" class="front_block"></div>
+            <div id="l_16_3" class="front_block"></div>
+            <div id="l_16_4" class="front_block"></div>
+            <div id="l_16_5" class="front_block"></div>
+            <div id="l_16_6" class="front_block"></div>
+            <div id="l_16_7" class="front_block"></div>
+            <div id="l_16_8" class="front_block"></div>
+            <div id="l_16_9" class="front_block"></div>
+            <div id="l_16_10" class="front_block"></div>
+            <div id="l_16_11" class="front_block"></div>
+            <div id="l_16_12" class="front_block"></div>
+            <div id="l_16_13" class="front_block"></div>
+            <div id="l_16_14" class="front_block"></div>
+            <div id="l_16_15" class="front_block"></div>
+            <div id="l_16_16" class="front_block"></div>
+            <div id="l_16_17" class="front_block"></div>
+            <div id="l_16_18" class="front_block"></div>
+            <div id="l_16_19" class="front_block"></div>
+        </div>
+        <div class="front_line" id="l_17">
+            <div id="l_17_1" class="front_block"></div>
+            <div id="l_17_2" class="front_block"></div>
+            <div id="l_17_3" class="front_block"></div>
+            <div id="l_17_4" class="front_block"></div>
+            <div id="l_17_5" class="front_block"></div>
+            <div id="l_17_6" class="front_block"></div>
+            <div id="l_17_7" class="front_block"></div>
+            <div id="l_17_8" class="front_block"></div>
+            <div id="l_17_9" class="front_block"></div>
+            <div id="l_17_10" class="front_block"></div>
+            <div id="l_17_11" class="front_block"></div>
+            <div id="l_17_12" class="front_block"></div>
+            <div id="l_17_13" class="front_block"></div>
+            <div id="l_17_14" class="front_block"></div>
+            <div id="l_17_15" class="front_block"></div>
+            <div id="l_17_16" class="front_block"></div>
+            <div id="l_17_17" class="front_block"></div>
+            <div id="l_17_18" class="front_block"></div>
+            <div id="l_17_19" class="front_block"></div>
+        </div>
+        <div class="front_line" id="l_18">
+            <div id="l_18_1" class="front_block"></div>
+            <div id="l_18_2" class="front_block"></div>
+            <div id="l_18_3" class="front_block"></div>
+            <div id="l_18_4" class="front_block"></div>
+            <div id="l_18_5" class="front_block"></div>
+            <div id="l_18_6" class="front_block"></div>
+            <div id="l_18_7" class="front_block"></div>
+            <div id="l_18_8" class="front_block"></div>
+            <div id="l_18_9" class="front_block"></div>
+            <div id="l_18_10" class="front_block"></div>
+            <div id="l_18_11" class="front_block"></div>
+            <div id="l_18_12" class="front_block"></div>
+            <div id="l_18_13" class="front_block"></div>
+            <div id="l_18_14" class="front_block"></div>
+            <div id="l_18_15" class="front_block"></div>
+            <div id="l_18_16" class="front_block"></div>
+            <div id="l_18_17" class="front_block"></div>
+            <div id="l_18_18" class="front_block"></div>
+            <div id="l_18_19" class="front_block"></div>
+        </div>
+        <div class="front_line" id="l_19">
+            <div id="l_19_1" class="front_block black"></div>
+            <div id="l_19_2" class="front_block"></div>
+            <div id="l_19_3" class="front_block"></div>
+            <div id="l_19_4" class="front_block"></div>
+            <div id="l_19_5" class="front_block"></div>
+            <div id="l_19_6" class="front_block"></div>
+            <div id="l_19_7" class="front_block"></div>
+            <div id="l_19_8" class="front_block"></div>
+            <div id="l_19_9" class="front_block"></div>
+            <div id="l_19_10" class="front_block"></div>
+            <div id="l_19_11" class="front_block"></div>
+            <div id="l_19_12" class="front_block"></div>
+            <div id="l_19_13" class="front_block"></div>
+            <div id="l_19_14" class="front_block"></div>
+            <div id="l_19_15" class="front_block"></div>
+            <div id="l_19_16" class="front_block"></div>
+            <div id="l_19_17" class="front_block"></div>
+            <div id="l_19_18" class="front_block"></div>
+            <div id="l_19_19" class="front_block"></div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+        $.noConflict();
+        var jQ = jQuery;
+    </script>
+    <script>
+        //////////////////////////////////////////////////////////
+        //  pure js... l_1 ... l_1_1 //jQ jQl_1 jQl_1_1         //
+        //         console.log(l_s_s.textContent);              //
+        //         console.log(jQl_s_s.text());                 //
+        //              a97  b98  c99                           //
+        //              h104  0  d100                           //
+        //              g103  f102  e101                        //
+        //////////////////////////////////////////////////////////
+        var gamefinshed = false;
+        for (let i = 1; i <= 19; i++) { //charCodeAt(0) <- the order of string 
+            const variableName = 'l_' + i.toString()
+            window[variableName] = document.getElementById(variableName);
+            const JqvariableName = 'jQ' + variableName;
+            window[JqvariableName] = jQ('#' + variableName);
+            for (let q = 1; q <= 19; q++) {
+                const variableNames = 'l_' + i.toString() + '_' + q.toString();
+                window[variableNames] = document.getElementById(variableNames);
+                const JqvariableNames = 'jQ' + variableNames;
+                window[JqvariableNames] = jQ('#' + variableNames);
+            }
+        }
+        document.addEventListener('DOMContentLoaded', function () {
+            let setBW = true;
+            jQ(document).on('click', '.front_block', function () {
+                if (jQ(this).hasClass('white') || jQ(this).hasClass('black')) {
+                    return false;
+                } else {
+                    if (setBW) {
+                        jQ(this).addClass('black')
+                        setBW = false;
+                    } else {
+                        jQ(this).addClass('white')
+                        setBW = true;
+                    }
+                    let ids = jQ(this).attr('id');
+                    let idss = document.getElementById(ids);
+                    let stoneCount = 1;
+                    checkFiveFirst(ids, idss, stoneCount);
+                }
+            })
+
+        })
+        function checkFiveFirst(ids, idss, stoneCount) {
+            const partName = ids.split('_');
+            const xLane = partName[2];
+            const yLane = partName[1];
+            let checkList = [];
+            let colorOfStone;
+            if (idss.classList.contains('white')) {
+                colorOfStone = "white";
+            } else if (idss.classList.contains('black')) {
+                colorOfStone = "black";
+            }
+            
+            if (xLane >= 2 && xLane <= 18 && yLane >= 2 && yLane <= 18) {
+                for (let i = 97; i <= 104; i++) {
+                    checkList.push(String.fromCharCode(i))
+                }
+            } else if (xLane == 1) {
+                if (yLane > 1 && yLane < 19) {
+                    for (let i = 98; i <= 102; i++) {
+                        checkList.push(String.fromCharCode(i))
+                    }
+                } else if (yLane == 1) {
+                    for (let i = 100; i <= 102; i++) {
+                        checkList.push(String.fromCharCode(i))
+                    }
+                } else if (yLane == 19) {
+                    for (let i = 98; i <= 100; i++) {
+                        checkList.push(String.fromCharCode(i))
+                    }
+                }
+            } else if (xLane == 19) {
+                if (yLane > 1 && yLane < 19) {
+                    checkList.push("a");
+                    checkList.push("b");
+                    checkList.push("f");
+                    checkList.push("g");
+                    checkList.push("h");
+                } else if (yLane == 1) {
+                    for (let i = 102; i <= 104; i++) {
+                        checkList.push(String.fromCharCode(i))
+                    }
+                } else if (yLane == 19) {
+                    for (let i = 97; i <= 98; i++) {
+                        checkList.push(String.fromCharCode(i))
+                    }
+                    checkList.push("h");
+                }
+            } else if (yLane == 1 && xLane != 1 && xLane != 19) {
+                for (let i = 100; i <= 104; i++) {
+                    checkList.push(String.fromCharCode(i))
+                }
+            }
+            else if (yLane == 19 && xLane != 1 && xLane != 19) {
+                for (let i = 97; i <= 100; i++) {
+                    checkList.push(String.fromCharCode(i))
+                }
+                checkList.push("h");
+            }
+            checkList.forEach(element => {
+                let elmList = [];
+                elmList = checkFiveSecond(element, partName[2], partName[1]);
+                let newXLane = elmList[0];
+                let newYLane = elmList[1];
+                let newId = elmList[2];
+                let newIds = elmList[3]; 
+                checkFiveThird(newId, newIds, stoneCount, colorOfStone, element)
+            });
+
+        }
+       
+        function checkFiveSecond(element, oldX, oldY){     
+            let newXLane;
+                let newYLane;
+                let newId;
+                let newIds;       
+                let  elmList = [];
+            switch (element) {
+                    case 'a':
+                        newXLane = parseInt(oldX) - 1;
+                        newYLane = parseInt(oldY) - 1;
+                        newId = "l_" + newYLane.toString() + "_" + newXLane.toString();
+                        newIds = document.getElementById(newId);
+                        break;
+                    case 'b':
+                        newXLane = parseInt(oldX);
+                        newYLane = parseInt(oldY) - 1;
+                        newId = "l_" + newYLane.toString() + "_" + newXLane.toString();
+                        newIds = document.getElementById(newId);
+                        break;
+                    case 'c':
+                        newXLane = parseInt(oldX) + 1;
+                        newYLane = parseInt(oldY) - 1;
+                        newId = "l_" + newYLane.toString() + "_" + newXLane.toString();
+                        newIds = document.getElementById(newId);
+                        break;
+                    case 'd':
+                        newXLane = parseInt(oldX) + 1;
+                        newYLane = parseInt(oldY);
+                        newId = "l_" + newYLane.toString() + "_" + newXLane.toString();
+                        newIds = document.getElementById(newId);
+                        break;
+                    case 'e':
+                        newXLane = parseInt(oldX) + 1;
+                        newYLane = parseInt(oldY) + 1;
+                        newId = "l_" + newYLane.toString() + "_" + newXLane.toString();
+                        newIds = document.getElementById(newId);
+                        break;
+                    case 'f':
+                        newXLane = parseInt(oldX);
+                        newYLane = parseInt(oldY) + 1;
+                        newId = "l_" + newYLane.toString() + "_" + newXLane.toString();
+                        newIds = document.getElementById(newId);
+                        break;
+                    case 'g':
+                        newXLane = parseInt(oldX) - 1;
+                        newYLane = parseInt(oldY) + 1;
+                        newId = "l_" + newYLane.toString() + "_" + newXLane.toString();
+                        newIds = document.getElementById(newId);
+                        break;
+                    case 'h':
+                        newXLane = parseInt(oldX) - 1;
+                        newYLane = parseInt(oldY);
+                        newId = "l_" + newYLane.toString() + "_" + newXLane.toString();
+                        newIds = document.getElementById(newId);
+                        break;
+                    default:
+                        break;
+                }
+                elmList.push(newXLane);
+                elmList.push(newYLane);
+                elmList.push(newId);
+                elmList.push(newIds);
+                return elmList;
+        }
+        function checkFiveThird(newId, newIds, stoneCount, stoneColor, stoneDirection){
+            const partName = newId.split('_');
+            const xLane = partName[2];
+            const yLane = partName[1];
+            let checkList = [];
+            let newstoneCount = stoneCount;
+            let oldStoneColor = stoneColor;            
+            let colorOfNewStone = newIds.classList.contains(oldStoneColor);
+            if(colorOfNewStone){
+                newstoneCount++;                
+                if(newstoneCount>=5){
+                    console.log(oldStoneColor+"has win!")
+                    return false;
+                }
+                let elmList = [];
+                elmList = checkFiveSecond(stoneDirection, xLane, yLane);
+                let newXLane = elmList[0];
+                let newYLane = elmList[1];
+                let newId = elmList[2];
+                let newIds = elmList[3]; 
+                checkFiveThird(newId, newIds, newstoneCount, oldStoneColor, stoneDirection)
+            }else{                
+                return false;
+            }
+            
+
+        }
+
+    </script>
+</body>
+
+</html>
